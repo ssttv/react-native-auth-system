@@ -22,7 +22,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Choppa di doppa chop chop danka chompa la dilniladollopa</Text>
+        <Text>
+          Some text of contestable quality might be made to appear in this field
+        </Text>
       </View>
     );
   }
