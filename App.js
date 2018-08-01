@@ -22,7 +22,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>We might see some boilerplate here</Text>
+        <Text>Choppa di doppa chop chop danka chompa la dilniladollopa</Text>
       </View>
     );
   }
