@@ -23,7 +23,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>
-          Some text of contestable quality might be made to appear in this field
+          Some text of uncertain quality might be made to appear in this field
         </Text>
       </View>
     );
