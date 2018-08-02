@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     ...Platform.select({
       ios: {
-        paddingTop: 20
+        paddingTop: 30
       },
       android: {
         paddingTop: 20
@@ -18,10 +18,14 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App => (
-  <View style={styles.container}>
-    <Text>
-      Some text of uncertain quality might be made to appear in this field
-    </Text>
-  </View>
-);
+export default class App extends React.Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>
+          Some text of uncertain quality might be made to appear in this field
+        </Text>
+      </View>
+    );
+  }
+}
