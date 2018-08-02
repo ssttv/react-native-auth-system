@@ -18,14 +18,10 @@ const styles = StyleSheet.create({
   }
 });
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>
-          Some text of uncertain quality might be made to appear in this field
-        </Text>
-      </View>
-    );
-  }
-}
+export default (App = () => (
+  <View style={styles.container}>
+    <Text>
+      Some text of uncertain quality might be made to appear in this field
+    </Text>
+  </View>
+));
