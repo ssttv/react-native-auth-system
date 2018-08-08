@@ -9,10 +9,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     ...Platform.select({
       ios: {
-        paddingTop: 18
+        paddingTop: 20
       },
       android: {
-        paddingTop: 18
+        paddingTop: 20
       }
     })
   }
