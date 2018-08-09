@@ -25,6 +25,7 @@ export default class App extends React.Component {
         <Text>
           Some text of uncertain quality might be made to appear in this field
         </Text>
+        <Text></Text>
       </View>
     );
   }
