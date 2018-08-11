@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, Platform, View } from "react-native";
+import SignupForm from "./components/SignupForm";
 
 const styles = StyleSheet.create({
   container: {
@@ -22,9 +23,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>
-          Some text of uncertain quality might be made to appear in this field
-        </Text>
+        <SignupForm />
       </View>
     );
   }
