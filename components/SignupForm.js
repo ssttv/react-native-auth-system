@@ -11,7 +11,7 @@ class SignupForm extends Component {
   render() {
     return (
       <View>
-        <View style={{ marginBottom: 10 }}>
+        <View style={{ marginBottom: 20 }}>
           <FormLabel>Enter Phone Number Here</FormLabel>
           <FormInput />
         </View>
