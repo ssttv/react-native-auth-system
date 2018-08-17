@@ -12,7 +12,7 @@ class SignupForm extends Component {
     return (
       <View>
         <View style={{ marginBottom: 10 }}>
-          <FormLabel>Enter Phone Number</FormLabel>
+          <FormLabel>Enter Phone Number Here</FormLabel>
           <FormInput />
         </View>
         <Button title="Submit" />
